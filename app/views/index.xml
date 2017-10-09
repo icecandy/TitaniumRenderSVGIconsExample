@@ -1,0 +1,11 @@
+<Alloy>
+  <Window id="win">
+    <!-- We use a container just to centre the ImageViews in the screen -->
+    <View id="container" layout="vertical">
+      <ImageView id="icon1"/>
+      <ImageView id="icon2" top="20"/>
+      <!-- we use a 2nd method, only on Android, to render a tinted icon -->
+      <ImageView id="icon3" top="20" platform="android"/>
+    </View>
+  </Window>
+</Alloy>

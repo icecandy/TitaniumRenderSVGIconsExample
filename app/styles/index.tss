@@ -1,0 +1,8 @@
+"#win" : {
+	backgroundColor: "white"
+}
+
+"#container" : {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+}
